@@ -1,0 +1,15 @@
+doctype html
+html
+    head
+        title Placepay
+    body
+        script(
+            data-access-token=token
+            data-amount='1000.00'
+            data-description='Example Payment'
+            src='https://test.placepay.com/plugins/pay.js'
+            data-key={PUBLIC_KEY}
+            data-ach='false'
+            data-autopay='false'
+            data-embed='true'
+            data-autopay-only='true')
